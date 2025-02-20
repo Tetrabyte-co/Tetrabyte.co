@@ -1,0 +1,135 @@
+    figure {
+      display: inline-block;
+      text-align: center; /* Resim ve yazıyı ortalar */
+      margin-right: 10px; /* İkonlar arasında boşluk bırakır */
+    }
+    figcaption {
+    display: block; /* Yazıyı resmin altına yerleştirir */
+    margin-top: 1px; /* Resim ile yazı arasına boşluk bırakır */
+    }
+    header {
+      
+      position: relative;
+      width: 100%;
+      height:40vh; /* Resmin yüksekliği sayfa yüksekliğinin yarısı kadar */
+      background-image: url('images/terta\ \(1\)\ \(1\).png'); /* Resmin yolu */
+      background-size: cover; /* Resmi sayfa boyutuna uzatır */
+      background-position: center; /* Resmi ortalar */
+    }
+    header h1 {
+      position: absolute;
+      bottom: 10px; /* Alt kısımdan biraz boşluk bırakır */
+      left: 50%;
+      transform: translateX(-50%); /* Yatayda tam ortalar */
+      color: rgb(13, 10, 10); /* Yazıyı beyaz yapar */
+      font-size: 3em; /* Yazı boyutunu ayarlar */
+      margin: 0;
+    } 
+  
+    body{
+      background-color: rgb(250, 245, 242);
+    }
+
+    .transparent-text {
+    
+      color: rgba(250, 245, 242, 1);
+      text-decoration: none;
+    }
+  
+    .menu{
+      display: flex;              /* Flexbox'ı etkinleştirir */
+      justify-content: center;    /* Yatayda ortalar */
+      align-items: center;        /* Dikeyde ortalar */
+      height: 5vh;              /* Sayfa yüksekliği kadar yükseklik */
+    }
+
+    button {
+      background-color: rgba(224, 224, 224, 0.762);
+      border: rgba(224, 224, 224, 0.762);
+      padding: 0px;
+      border-radius: 20px;
+      margin: 0.5px;                     /* Butonlar arasında boşluk */
+      transition: 0.5s;
+    }
+    button:hover {
+      scale:1.1;
+      rotate: -2deg;
+    }
+    .button_2{
+      background-color: rgb(250, 245, 242);
+      border: rgb(250, 245, 242);
+      padding: 0px;
+      border-radius: 20px;
+      margin: 0.5px;                     /* Butonlar arasında boşluk */
+      transition: 0.5s;
+
+    }
+
+    .buyut{
+      scale:1.1;
+      rotate: -2deg;
+    }
+    .ortala{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      width: 80%;               /* İçeriğin genişliğini belirler, %100 yerine %80 örneği */
+      max-width: 1200px;        /* Genişliğin daha fazla büyümesini engeller */
+      margin: 0 auto;           /* Yatayda ortalar */
+      text-align: center;
+    }
+
+    .container1{
+      background-color: rgb(250, 240, 230);
+      border: 2px solid #000; /* Kenarlık */
+      border-radius: 15px; /* Köşeleri yuvarlat */
+      padding: 20px; /* İçeriğe biraz alan bırak */
+      width: 50%; /* Container genişliği */
+      margin: 0 auto; /* Ortalamak için */
+    }
+
+    
+
+    .container3{
+      padding: 10px;
+      width: 100%;
+
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Sayfa yüksekliği kadar alan kaplasın */
+  }
+  
+  .container_f {
+      background-color: rgba(224, 224, 224, 0.762);
+      flex: 1; /* Sayfanın geri kalanını kaplasın */
+      border: 3px solid #342a2a;
+      border-radius: 5px;
+      padding: 10px;
+      width: 100%;
+      margin: 0px auto;
+      text-align: center;
+  }
+  
+  .footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative; /* Sayfanın altına sabitlemek için değiştirilebilir */
+      bottom: 0;
+      width: 100%;
+  }
+
+
+
+
+
+  
