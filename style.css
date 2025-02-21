@@ -86,7 +86,7 @@
       background-color: rgb(250, 240, 230);
       border: 2px solid #000; /* Kenarlık */
       border-radius: 15px; /* Köşeleri yuvarlat */
-      padding: 20px; /* İçeriğe biraz alan bırak */
+      padding: 5%; /* İçeriğe biraz alan bırak */
       width: 50%; /* Container genişliği */
       margin: 0 auto; /* Ortalamak için */
     }
